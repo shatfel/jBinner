@@ -1,0 +1,9 @@
+node-modules
+*~
+*.swp
+*.core
+bin
+*.exe
+*-linux*
+*-mac*
+*-win*
