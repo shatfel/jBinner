@@ -5,7 +5,7 @@ const os = require('os')
 //const process = require('process')
 
 // config
-_C={
+const _C={
   // bin name and params
   "bin": "rclone",
   "params": "--no-check-certificate=true",
