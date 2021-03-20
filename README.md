@@ -17,5 +17,5 @@ npm run post-build
 ## Config
 
 | Parameter | Description |
-|rcloneBin|path to rclone.exe|
-|params|rclone`s parameters|
+| rcloneBin | path to rclone.exe |
+| params | rclone`s parameters |
