@@ -1,22 +1,21 @@
-# node-rclone-runner
+# jbinner
 
 ## Install 
 
 ```
-git clone https://github.com/shatfel/node-rclone-runner
+git clone https://github.com/shatfel/jBinner
 ```
 
 ## Build
 
 ```
-npm run pre-build
-npm run build
-npm run post-build
+npm i pkg -g
+npm i
 ```
 
 ## Config
 
-Edit it in hash table __C_ in _config.js_ (after building -> bin/jBinner.conf.js).
+Edit it in hash table __C_ in _jbinner.conf.js_.
 
 | Parameter | Description |
 | --------- | ----------- |
