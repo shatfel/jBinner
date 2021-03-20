@@ -1,18 +1,17 @@
 {
-  "name": "node-rclone-runner",
+  "name": "jBinner",
   "version": "0.0.1",
-  "description": "node-rclone-runner",
+  "description": "jBinner",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "pre-build": "npm i pkg -g",
-    "build": "pkg main.js -o ./bin/node-rclone-runner.exe",
-    "post-build": "xcopy /y config.js bin"
+    "build": "pkg main.js -o jBinner.exe",
+    "full-build": "npm run pre-build && npm run build"
   },
-  "author": "shatfel@gmail.com",
+  "author": "shatfel <shatfel@gmail.com>",
   "license": "ISC",
   "repository": {
-    "url": "https://github.com/shatfel/node-rclone-runner",
+    "url": "https://github.com/shatfel/jBinner",
     "type": "git"
   }
 }
