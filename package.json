@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "pre-build": "npm i pkg -g",
-    "build": "pkg main.js -o ./bin/node-rclone-runner.exe"
+    "build": "pkg main.js -o ./bin/node-rclone-runner.exe",
+    "post-build": "xcopy /y config.js bin"
   },
   "author": "shatfel@gmail.com",
   "license": "ISC",
