@@ -1,8 +1,8 @@
 {
-  "name": "jBinner",
-  "version": "0.0.1",
+  "name": "jbinner",
+  "version": "0.1.0",
   "description": "jBinner",
-  "main": "main.js",
+  "main": "jBinner.js",
   "scripts": {
     "pre-build": "npm i pkg -g",
     "build": "pkg main.js -o jBinner.exe",
