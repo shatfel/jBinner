@@ -16,7 +16,7 @@ npm run post-build
 
 ## Config
 
-Edit it in hash table __C _config.js_.
+Edit it in hash table *_C* _config.js_.
 
 | Parameter | Description |
 | --------- | ----------- |
