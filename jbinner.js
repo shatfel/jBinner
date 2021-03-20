@@ -1,25 +1,29 @@
 'use strict'
 
 //
-const _exec = require('child_process').exec
+const child_process = require('child_process')
+const os = require('os')
 
 // config
-const _C = require('./jBinner.conf.js')._C
+let _C = require('./jBinner.conf.js')._C
 
+//
+let _exec = child_process.exec
 
 
 /**
- * checkParams() 
+ * checkParams()
  */
-function chechParams() {
+function checkParams() {
   if ( process.env.verbose !== undefined && process.env.verbose === true ) {
     _C['verbose'] = true
+    pI ('Verbose set to true ..')
     }
   }
 
 
 /**
- * 
+ * pP()
  * @param {string} msg 
  */
 function pP(msg) {
@@ -28,7 +32,7 @@ function pP(msg) {
 
 
 /**
- * 
+ * pI()
  * @param {string} msg 
  */
 function pI (msg) {
@@ -56,9 +60,7 @@ function doExec() {
       + _C['params']+ ' '  // params
       + _argv //arguments
 
-  if (_C['verbose']) {
-    pI ('_cmd: ' + _cmd)
-    }
+  if (_C['verbose']) pI ('_cmd: ' + _cmd)
 
   // exec command
   let _r  = _exec(_cmd)
@@ -94,4 +96,5 @@ if ( process.env.runType !== undefined && process.env.runType === 'example' ) {
     }
   }
 
+checkParams()
 doExec()
