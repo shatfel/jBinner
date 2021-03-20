@@ -16,7 +16,7 @@ npm run post-build
 
 ## Config
 
-Edit it in hash table __C_ in _config.js_.
+Edit it in hash table __C_ in _config.js_ (after building -> bin/jBinner.conf.js).
 
 | Parameter | Description |
 | --------- | ----------- |

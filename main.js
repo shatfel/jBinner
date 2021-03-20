@@ -6,9 +6,11 @@ const _exec = require('child_process').exec
 // config
 const _C = require('./config.js')._C
 
+// shift to params
 process.argv.shift()
 process.argv.shift()
 
+// convert to string
 let _argv = process.argv.toString()
 
 // replace all , to spaces
