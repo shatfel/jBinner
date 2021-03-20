@@ -1,0 +1,19 @@
+{
+  "name": "node-rclone-runner",
+  "version": "0.0.1",
+  "description": "node-rclone-runner",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pkg-build": "node-modules/.bin/pkg main.js -o node-rclone-runner.exe --out-path ./bin"
+  },
+  "author": "shatfel@gmail.com",
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/shatfel/node-rclone-runner",
+    "type": "git"
+  },
+  "dependencies": {
+    "pkg": "^4.4.9"
+  }
+}
