@@ -3,7 +3,7 @@
 ## Install 
 
 ```
-git clone https://github.com/shatfel/jBinner
+git clone https://github.com/shatfel/jbinner
 ```
 
 ## Build
